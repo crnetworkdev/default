@@ -5520,6 +5520,228 @@
             "Economy": 0
         }
     },
+    "groups": {
+        "Admin": {
+            "Permission": {
+                "Admin": true
+            },
+            "Hierarchy": ["Administrador","Diretor","Moderador","Suporte","Ajudante"],
+            "Name": "Adminstradores",
+            "Service": true,
+            "Chat": true,
+            "Max": 30
+        },
+        "Ouro": {
+            "Permission": {
+                "Ouro": true
+            },
+            "Hierarchy": ["Membro"],
+            "Salary": [3750],
+            "Backpack": [25],
+            "Service": true,
+            "Block": true
+        },
+        "Prata": {
+            "Permission": {
+                "Prata": true
+            },
+            "Hierarchy": ["Membro"],
+            "Salary": [2500],
+            "Backpack": [15],
+            "Service": true,
+            "Block": true
+        },
+        "Bronze": {
+            "Permission": {
+                "Bronze": true
+            },
+            "Hierarchy": ["Membro"],
+            "Salary": [1250],
+            "Backpack": [5],
+            "Service": true,
+            "Block": true
+        },
+        "LSPD": {
+            "Permission": {
+                "LSPD": true
+            },
+            "Hierarchy": ["Coronel","Tenente-Coronel","Major","Capitão","1º Tenente","2º Tenente","Aspirante","Subtenente","1º Sargento","2º Sargento","3º Sargento","Cabo","Soldado","Recruta","Delegada"],
+            "Salary": [10000,9750,9500,9250,9000,8750,8500,8250,8000,7750,7500,7250,7000,6750,6500],
+            "Name": "Los Santos Police Department",
+            "Service": true,
+            "Type": "Work",
+            "Markers": true,
+            "Chat": true
+        },
+        "BCSO": {
+            "Permission": {
+                "BCSO": true
+            },
+            "Hierarchy": ["Coronel","Tenente-Coronel","Major","Capitão","1º Tenente","2º Tenente","Aspirante","Subtenente","1º Sargento","2º Sargento","3º Sargento","Cabo","Soldado","Recruta","Delegada"],
+            "Salary": [10000,9750,9500,9250,9000,8750,8500,8250,8000,7750,7500,7250,7000,6750,6500],
+            "Name": "Blaine County Sheriff Officer",
+            "Service": true,
+            "Type": "Work",
+            "Markers": true,
+            "Chat": true
+        },
+        "SAPR": {
+            "Permission": {
+                "SAPR": true
+            },
+            "Hierarchy": ["Coronel","Tenente-Coronel","Major","Capitão","1º Tenente","2º Tenente","Aspirante","Subtenente","1º Sargento","2º Sargento","3º Sargento","Cabo","Soldado","Recruta","Delegada"],
+            "Salary": [10000,9750,9500,9250,9000,8750,8500,8250,8000,7750,7500,7250,7000,6750,6500],
+            "Name": "San Andreas Park Ranger",
+            "Service": true,
+            "Type": "Work",
+            "Markers": true,
+            "Chat": true
+        },
+        "Paramedico": {
+            "Permission": {
+                "Paramedico": true
+            },
+            "Hierarchy": ["Diretor-Geral","Diretor Clínico","Diretor Técnico","Chefe de Corpo Clínico","Médico Supervisor","Médico Cirurgião","Médico Plantonista","Médico Especialista","Médico Clínico","Residente","Enfermeiro","Técnico de Enfermagem","Auxiliar de Enfermagem","Estagiário de Medicina","Estagiário de Enfermagem"],
+            "Salary": [8750,8500,8250,8000,7750,7500,7250,7000,6750,6500,6250,6000,5750,5500,5250],
+            "Service": true,
+            "Type": "Work",
+            "Markers": true,
+            "Chat": true
+        },
+        "Ballas": {
+            "Permission": {
+                "Ballas": true
+            },
+            "Hierarchy": ["Chefe","Subchefe","Conselheiro","General","Veterano","Executor","Operacional","Soldado","Novato","Aspirante"],
+            "Domination": true,
+            "Service": true,
+            "Type": "Work"
+        },
+        "Vagos": {
+            "Permission": {
+                "Vagos": true
+            },
+            "Hierarchy": ["Chefe","Subchefe","Conselheiro","General","Veterano","Executor","Operacional","Soldado","Novato","Aspirante"],
+            "Domination": true,
+            "Service": true,
+            "Type": "Work"
+        },
+        "Families": {
+            "Permission": {
+                "Families": true
+            },
+            "Hierarchy": ["Chefe","Subchefe","Conselheiro","General","Veterano","Executor","Operacional","Soldado","Novato","Aspirante"],
+            "Domination": true,
+            "Service": true,
+            "Type": "Work"
+        },
+        "Marabunta": {
+            "Permission": {
+                "Marabunta": true
+            },
+            "Hierarchy": ["Chefe","Subchefe","Conselheiro","General","Veterano","Executor","Operacional","Soldado","Novato","Aspirante"],
+            "Domination": true,
+            "Service": true,
+            "Type": "Work"
+        },
+        "Aztecas": {
+            "Permission": {
+                "Aztecas": true
+            },
+            "Hierarchy": ["Chefe","Subchefe","Conselheiro","General","Veterano","Executor","Operacional","Soldado","Novato","Aspirante"],
+            "Domination": true,
+            "Service": true,
+            "Type": "Work"
+        },
+        "Bennys": {
+            "Permission": {
+                "Bennys": true
+            },
+            "Hierarchy": ["Dono","Gerente de Oficina","Supervisor de Oficina","Especialista Automotivo","Mecânico Sênior","Mecânico Pleno","Mecânico Júnior","Ajudante de Mecânico","Estagiário de Mecânica"],
+            "Salary": [4000,3750,3500,3250,3000,2750,2500,2250,2000],
+            "Service": true,
+            "Type": "Work"
+        },
+        "Bahamas": {
+            "Permission": {
+                "Bahamas": true
+            },
+            "Hierarchy": ["Dono","Sócio","Gerente","Maitré","Especialista","Cozinheiro Sênior","Cozinheiro Pleno","Cozinheiro Júnior","Ajudante de Cozinha","Estagiário de Cozinha"],
+            "Salary": [4000,3750,3500,3250,3000,2750,2500,2250,2000,1750],
+            "Service": true,
+            "Type": "Work"
+        },
+        "Restaurante": {
+            "Permission": {
+                "Restaurante": true
+            },
+            "Hierarchy": ["Dono","Sócio","Gerente","Maitré","Especialista","Cozinheiro Sênior","Cozinheiro Pleno","Cozinheiro Júnior","Ajudante de Cozinha","Estagiário de Cozinha"],
+            "Salary": [4000,3750,3500,3250,3000,2750,2500,2250,2000,1750],
+            "Service": true,
+            "Type": "Work"
+        },
+        "Booster": {
+            "Permission": {
+                "Booster": true
+            },
+            "Hierarchy": ["Membro"],
+            "Service": true,
+            "Salary": [2500],
+            "Block": true
+        },
+        "Freecam": {
+            "Permission": {
+                "Freecam": true
+            },
+            "Hierarchy": ["Membro"],
+            "Service": true,
+            "Block": true
+        },
+        "Policia": {
+            "Permission": {
+                "LSPD": true,
+                "BCSO": true,
+                "SAPR": true
+            },
+            "Hierarchy": ["Membro"],
+            "Block": true
+        },
+        "Emergencia": {
+            "Permission": {
+                "LSPD": true,
+                "BCSO": true,
+                "SAPR": true,
+                "Paramedico": true
+            },
+            "Hierarchy": ["Membro"],
+            "Block": true
+        },
+        "FuelStation01": {
+            "Permission": {
+                "FuelStation01": true
+            },
+            "Hierarchy": ["Proprietário","Gerente","Atendente","Frentista"],
+            "Service": true,
+            "Type": "Fuel"
+        },
+        "Mansao01": {
+            "Permission": {
+                "Mansao01": true
+            },
+            "Name": "Mansão",
+            "Hierarchy": ["Proprietário","Morador"],
+            "Type": "Propertys",
+            "Service": true,
+            "Max": 5
+        },
+        "Lester": {
+            "Permission": {
+                "Lester": true
+            },
+            "Hierarchy": ["Chefe","Subchefe","Membro"],
+            "Service": true
+        }
+    },
 
     "common": "#6fc66a",
     "rare": "#6ac6c5",
@@ -5575,6 +5797,7 @@
             "status": 10,
             "vehicle": 3
         },
+        "logo": 75,
         "percentage": true,
         "icons": "#FFFFFF",
         "nitro": "#f69d2a",
