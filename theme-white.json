@@ -1,7 +1,7 @@
 {
     "shadow": true,
-    "main": "#5865f2",
-    "mainText": "#ffffff",
+    "main": "#ffffff",
+    "mainText": "#000000",
     "currency": "$",
     "items": {
         "blue_essence": {
